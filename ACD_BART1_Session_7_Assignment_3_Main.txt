@@ -38,6 +38,12 @@ Not Applicable
 
 1. Create a box and whisker plot by class using mtcars dataset.
 
+Answer:
+> library(ggplot2)
+> ggplot(mpg, aes(x=class, y=hwy, fill=class,font.main=2)) + geom_boxplot(alpha=0.5)
+> 
+plot saved on GitHub ID: https://github.com/Manishchugh79/DATA-ANALYTICS-WITH-R-EXCEL-TABLEAU_Session7Assignment7.3/7.3 Box&Whisker Plot using mtcars
+
 
     Expected Output
 Not Applicable
